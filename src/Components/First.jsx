@@ -7,7 +7,7 @@ import smalldiamond from '../img/smalldiamond.png'
 
 const First = () => {
   return (
-    <div id="main1">
+    <div className="main1">
       <div id="frame1">
         <div className="ellipses1">
           <div className="img1">
@@ -23,7 +23,7 @@ const First = () => {
           </div>
         </div>
 
-        <div className="ellipsetext">
+        <div id="ellipsetext">
           <div className="ellipsetext1">
             <h1 className="header1">
               Join the future of <span>finance, </span>
@@ -60,12 +60,13 @@ const First = () => {
         </div>
       </div>
 
+
       <div id="frame2">
         <div className="box-head">
           <div className="boxx">
             <div className="BOX1">
               {" "}
-              <img src="./images/Rectangle 8.png" alt="" />
+              <img src="./images/Rectangle 33.png" alt="" />
             </div>
             <div className="BOX1">
               {" "}
@@ -81,10 +82,10 @@ const First = () => {
             </div>
           </div>
           <div className="dots">
-            <div>
+            <div className="dot-1">
               <img src="./images/dot1.png" alt="" />
             </div>
-            <div>
+            <div className="dot-2">
               <img src="./images/Dot2.png" alt="" />
             </div>
           </div>

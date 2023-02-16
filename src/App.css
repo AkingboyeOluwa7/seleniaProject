@@ -6,7 +6,7 @@
 
 #home-container {
   overflow-x: hidden;
-  background: linear-gradient(to right, #1a201e, #17382a, #1a201e);
+  background-color:  #1A211E;
 }
 
 .header {
@@ -17,7 +17,11 @@
   margin-right: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  background: linear-gradient(to right, #1a201e, #17382a, #1a201e);
+ background-color: #1A211E;
+ height: 6em;
+ position: relative;
+ padding-top: 1.5em;
+ bottom: 1em;
 }
 
 .seleniaa-text {
@@ -108,18 +112,29 @@
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
+.buttons1{
+  
+}
+
+.main1{
+  background: linear-gradient(to right, #1A211E, #1A211E,  #133828, #133828, #1A211E,  #1A211E);
+  position: relative;
+  bottom: 2em;
+}
 
 #frame1 {
-  background: linear-gradient(to right, #1a201e, #17382a, #1a201e);
+
   color: white;
   position: relative;
   right: 3em;
+  background: linear-gradient(to right, #1A211E,  #133828, #133828, #1A211E );
 }
 .ellipses1 {
   display: flex;
   flex-direction: row;
   width: 100vw;
   justify-content: space-between;
+
 }
 span {
   color: #00c566;
@@ -144,6 +159,7 @@ span {
   width: 68vw;
   margin-left: auto;
   margin-right: auto;
+
 }
 .header1 {
   font-size: 66px;
@@ -153,6 +169,9 @@ span {
   bottom: 1.4em;
   text-align: center;
   padding-left: 1em;
+}
+#ellipsetext{
+
 }
 .para1 {
   font-family: "Poppins";
@@ -233,22 +252,27 @@ span {
 .boxx {
   display: flex;
   justify-content: space-evenly;
-  background: linear-gradient(to right, #1a201e, #17382a, #1a201e);
   border-radius: 16px;
-  background-color: #212d21;
   opacity: 0.8;
+
 }
-.box-head {
-  background: linear-gradient(to right, #1a201e, #17382a, #1a201e);
-}
+
 .dots {
   display: flex;
   justify-content: center;
   gap: 1em;
   padding-top: 1.5em;
+
+}
+.box-head{
+  background-color:  #1A211E;
+  padding-top: 4em;
+  position: relative;
+  
 }
 .BOX1 {
   border-radius: 16px;
+ 
 }
 
 h3 {
