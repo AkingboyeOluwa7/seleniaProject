@@ -70,7 +70,10 @@
   display: flex;
   column-gap: 0.5em;
 }
+  button{
+    border: none;}
 .button1 {
+  border: none;
   width: 9em;
   height: 3em;
   background: linear-gradient(275.52deg, #00c566 5.5%, #00ffa3 97.66%);
@@ -84,6 +87,7 @@
   font-weight: 600;
   color: white;
   transition: all 0.2s linear;
+  
 }
 .button1:hover {
   background-color: white;
