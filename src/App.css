@@ -7,7 +7,7 @@
 #home-container {
   overflow-x: hidden;
   background: #154d39; 
-
+font-family: "poppins";
 }
 
 .header {
@@ -26,11 +26,12 @@
 }
 
 .seleniaa-text {
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: 700;
   color: #00ffa3;
   padding-left: 2em;
   padding-top: 0.3em;
+  font-family: "poppins";
 }
 
 .selenia-text {
@@ -123,6 +124,7 @@
   position: relative;
   bottom: 2em;
   background-color: #1a211e;
+  font-family: "poppins";
 }
 
 #frame1 {
@@ -130,6 +132,7 @@
   color: white;
   position: relative;
 right: 2em;
+font-family: "poppins";
 }
 .ellipses1 {
   display: flex;
@@ -301,6 +304,7 @@ h4 {
   color: white;
   position: relative;
   bottom: 2em;
+  font-family: "poppins";
 }
 
 .gettingstarted0 {
@@ -311,6 +315,7 @@ h4 {
   padding-top: 8em;
 background: radial-gradient(closest-corner at 700px 450px,  #173e2d,  #1A211E,  #1A211E, #1a211e );
   color: white;
+  font-family: "poppins";
 }
 .gettingstarted {
   display: flex;
