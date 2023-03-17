@@ -2,6 +2,11 @@ import React from "react";
 import Wallet from '../img/Wallet.png'
 import payment from '../img/payment.png'
 import paybills from '../img/paybills.png'
+import "../mobile.css"
+import mobile1 from '../img/mobile1.png'
+import mobile2 from '../img/mobile2.png'
+import mobile3 from '../img/mobile3.png'
+
 const Second = () => {
   return (
     <div id="main2">
@@ -19,12 +24,16 @@ const Second = () => {
           <button className="ellipsebutton111">Get Selenia</button>
         </div>
         <div className="gettingstarted-img">
-          <img src={Wallet} alt="" />
+        <img src={Wallet} alt="" />
         </div>
+        <div className="mobile1"><img src={mobile1} alt="" /></div>
       </div>
 
       <div className="buycoins0">
-        <div className="make-payment">
+
+        <div className="mobile2"> <img src={mobile2} alt="" /></div>
+        <div className="make-payment makepaymentmobile">
+
           <img src={payment} alt="" />
         </div>
         <div className="buycoins">
@@ -41,6 +50,7 @@ const Second = () => {
       </div>
 
       <div className="buy-airtime">
+
         <div className="buyairtimetext">
           <h1 className="buyairtimeh1">
             Buy airtime and pay bills with cryptocurrency
@@ -52,6 +62,7 @@ const Second = () => {
 
           <button className="ellipsebutton111">Get Selenia</button>
         </div>
+        <div className="mobile3">  <img src={mobile3} alt="" /></div>
         <div className="buyairtimepicture">
           <img src={paybills} alt="" />
         </div>

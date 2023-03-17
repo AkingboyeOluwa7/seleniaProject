@@ -1,25 +1,67 @@
 import React from "react";
-import ellipse3 from '../../src/img/Ellipse.png'
+import Ellipse from '../../src/img/Ellipse.png'
 import bigdollar from '../img/bigdollar.png'
 import Ellipse5  from '../img/Ellipse5.png'
 import bigdiamond from '../img/bigdiamond.png'
 import smalldiamond from '../img/smalldiamond.png'
+import smalldollar000 from '../img/smalldollar000.png'
+import mobilebitcoin from '../img/mobilebitcoin.png'
+import mobilesmalldollar from '../img/mobilesmalldollar.png'
+import mobilemediumdollar from '../img/mobilemediumdollar.png'
+import mobilet from '../img/mobilet.png'
+import mobilediamond from '../img/mobilediamond.png'
+import "../mobile.css"
+
 
 const First = () => {
   return (
+    
     <div className="main1">
       <div id="frame1">
+
+
+        <div className="mobilee">
+
+          
+      <div className="mobileellipses">
+
+<div className="mobilebitcoin"> <img src={mobilebitcoin} alt="" /></div>
+<div className="mobilesmalldollar"> <img src={mobilesmalldollar} alt="" /></div>
+<div className="mobiledollarm"> <img src={mobilemediumdollar} alt="" /></div>
+
+</div>
+
+
+<div className="mobileellipses2">
+
+<div className="mobilet"> <img src={mobilet} alt="" /></div>
+<div className="mobilediamond"> <img src={mobilediamond} alt="" /></div>
+
+</div>
+
+        </div>
+
+
+
         <div className="ellipses1">
+
+
           <div className="img1">
             {" "}
-            <img src={ellipse3} alt="" />
+            <img src={Ellipse} alt="" />
+         
           </div>
           <div className="img2">
-            <img src="./images/smalldollar.png" alt="" />{" "}
+        
+          <img src={smalldollar000} alt="" />
+  
+     
           </div>
           <div className="img3">
-            {" "}
-            <img src={bigdollar} alt="" />{" "}
+          <img src={bigdollar} alt="" />
+
+         
+
           </div>
         </div>
 
@@ -48,6 +90,9 @@ const First = () => {
           <div className="img4">
             {" "}
             <img src= {Ellipse5} alt="" />{" "}
+     
+
+
           </div>
           <div className="img5">
             {" "}
@@ -56,6 +101,9 @@ const First = () => {
           <div className="img6">
             {" "}
             {<img src= {bigdiamond}alt="" />}
+
+     
+
           </div>
         </div>
       </div>

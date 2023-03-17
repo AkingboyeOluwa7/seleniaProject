@@ -1,4 +1,5 @@
 import React from "react";
+import "../mobile.css";
 
 const Third = () => {
   return (
@@ -13,8 +14,7 @@ const Third = () => {
             <div className="ajayi">
               <h5>John Ajayi</h5>
               <p>
-                Selenia is swift and reliable. <br />
-                Having my mobile number as my <br />
+                Selenia is swift and reliable. Having my mobile number as my
                 wallet address makes it easier
               </p>
             </div>
@@ -24,8 +24,7 @@ const Third = () => {
             <div className="ajayi">
               <h5>John Ajayi</h5>
               <p>
-                Selenia is swift and reliable. <br />
-                Having my mobile number as my <br />
+                Selenia is swift and reliable. Having my mobile number as my
                 wallet address makes it easier
               </p>
             </div>
@@ -35,8 +34,7 @@ const Third = () => {
             <div className="ajayi">
               <h5>John Ajayi</h5>
               <p>
-                Selenia is swift and reliable. <br />
-                Having my mobile number as my <br />
+                Selenia is swift and reliable. Having my mobile number as my
                 wallet address makes it easier
               </p>
             </div>
@@ -46,8 +44,7 @@ const Third = () => {
             <div className="ajayi">
               <h5>John Ajayi</h5>
               <p>
-                Selenia is swift and reliable. <br />
-                Having my mobile number as my <br />
+                Selenia is swift and reliable. Having my mobile number as my
                 wallet address makes it easier
               </p>
             </div>
@@ -76,31 +73,26 @@ const Third = () => {
         </div>
       </div>
 
+
+
+
+
+
       <div className="footer">
-        <div className="selenia-text">
-          <div className="selenia1">
-            <h1>Selenia</h1>
+
+
+        <div className="frame01">
+          <div className="selenia22">
+            <h1 className="">Selenia</h1>
           </div>
-          <div className="iconss">
-            <div>
-              <img src="./images/Vector1.jpg" alt="" />
-            </div>
-            <div>
-              <img src="./images/Vector2.jpg" alt="" />
-            </div>
-            <div>
-              <img src="./images/Vector3.jpg" alt="" />
-            </div>
-            <div>
-              <img src="./images/Vector4.jpg" alt="" />
-            </div>
-          </div>
-          <div className="copyright">
-            <p className="copyy">Copyright 2023 selenia.com</p>
-          </div>
+
+          
         </div>
 
-        <div className="footer-info">
+        <div className="framediv">
+
+
+        <div className="frame02">
           <div className="footer-head">
             {" "}
             <h3>Company</h3>
@@ -111,10 +103,19 @@ const Third = () => {
           </div>
           <div className="footerp">
             {" "}
+            <p>Features</p>
+          </div>
+          <div className="footerp">
+            {" "}
             <p>About Us</p>
           </div>
+          <div className="footerp">
+            {" "}
+            <p>Our team</p>
+          </div>
         </div>
-        <div className="footer-info">
+
+        <div className="frame02">
           <div className="footer-head">
             <h3>Services</h3>
           </div>
@@ -135,8 +136,8 @@ const Third = () => {
           </div>
         </div>
 
-        <div className="footer-info">
-          <div>
+        <div className="frame02">
+          <div className="footer-head">
             <h3>Contact</h3>
           </div>
           <div className="footerp">
@@ -147,6 +148,32 @@ const Third = () => {
           </div>
           <div className="footerp">
             <p>Helpline</p>
+          </div>
+        </div>
+
+
+
+        </div>
+
+     
+
+        <div className="mobileview2">
+          <div className="iconss">
+            <div>
+              <img src="./images/Vector1.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./images/Vector2.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./images/Vector3.jpg" alt="" />
+            </div>
+            <div>
+              <img src="./images/Vector4.jpg" alt="" />
+            </div>
+          </div>
+          <div className="copyright">
+            <p className="copyy">Copyright 2023 selenia.com</p>
           </div>
         </div>
       </div>

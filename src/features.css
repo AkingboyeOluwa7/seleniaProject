@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.featurespage{
+    overflow-x: hidden;
+}
+@media screen and (max-width: 1190px){
+
+
+  .buyairtimepicture {
+    transform: translate(-20%, 0%);
+  }
+  
+
+  .make-payment {
+    transform: translate(3%, 5%);
+  }
+
+
+
+}

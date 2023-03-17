@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #contactwhole{
+    background: radial-gradient(circle at  center center, #173e2d, #1A211E,  #1A211E, #1A211E, #1a211e, #1a211e);
+
+overflow-x: hidden;
+  }
+ 
+
+.contactdiv{
+display: flex;
+justify-content: space-between;
+width: 90vw;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+right: 1.5em;
+color: white;
+padding-top: 8em;
+
+}
+.contacttext{
+width: 104px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #00ffa3;
+
+}
+ .helpyou{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+} 
+
+ .fill-in{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+}
+
+.iconss{
+    position: relative;
+    bottom: 2em;
+}
+
+.input-form2{
+  width: 40em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+  padding-left: 1em;
+}
+.input-form22{
+  width: 40em;
+  height: 2.5em;
+  margin-top: 2em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 1em;
+}
+
+
+.input-form222{
+  width: 40em;
+  height: 10em;
+margin-bottom: 2em;
+border-radius: 0.5em;
+text-align: justify;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 1em;
+padding-bottom: 7em;
+}
+
+.formname0{
+  padding: 0em 3.5em 1em 4em;
+background-color: white;
+border-radius: 1.5em;
+border: none;
+width: 58vw;
+margin-bottom: 2em;
+}
+
+.formname1{
+
+background-color: white;
+border-radius: 0.5em;
+border: none;
+padding: 0 0 1.5em 0;
+}
+
+
+.formname11{
+
+  background-color: white;
+  border-radius: 0.5em;
+  border: none;
+  
+  }
+  .subscribe-button0 {
+    position: relative;
+    height: 3em;
+    bottom: 1.5em;
+    width: 40em;
+    background-color: #00c566;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+  }
+  .subscribe-button0:hover {
+    background-color: #00c566 ;
+    color: black;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    
+  }
+
+
+
+
+  @media screen and (max-width: 1150px){
+.input-form2{
+  width: 23em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+  padding-left: 1em;
+}
+.input-form22{
+  width: 23em;
+  height: 2.5em;
+  margin-top: 2em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 1em;
+}
+
+
+.input-form222{
+  width: 23em;
+  height: 10em;
+margin-bottom: 2em;
+border-radius: 0.5em;
+text-align: justify;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 1em;
+padding-bottom: 7em;
+}
+
+.formname0{
+  padding: 0em 3.5em 1em 3.5em;
+background-color: white;
+border-radius: 1.5em;
+border: none;
+width: 55vw;
+}
+
+.formname1{
+
+background-color: white;
+border-radius: 0.5em;
+border: none;
+padding: 0 0 1.5em 0;
+}
+
+.subscribe-button0 {
+  position: relative;
+  height: 3em;
+  bottom: 1.5em;
+  width: 23em;
+  background-color: #00c566;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+}
+.subscribe-button0:hover {
+  background-color: #00c566 ;
+  color: black;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  
+}
+
+.formname0{
+  padding: 0em 3.5em 1em 4em;
+background-color: white;
+border-radius: 1.5em;
+border: none;
+width: 58vw;
+margin-bottom: 1em;
+}
+
+
+  }
+
+
+    
+    
+  @media screen  and (max-width: 500px) {
+    
+
+    .contactdiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      color: white;
+      padding-top: 8em;
+      
+      }
+
+      .contacttext{
+        width: 104px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        color: #00ffa3;
+        
+        }
+        .contact-text{
+      font-size: 16px;
+        }
+        .helpyou{
+          font-size: 20px;
+        }
+        .fill-in{
+          font-size: 12px;
+        }
+        
+        
+.iconss{
+  position: relative;
+
+}
+.contact{
+  padding-left: 2em;
+}
+
+
+.input-form2{
+  width: 22.5em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.input-form22{
+  width: 22.5em;
+  height: 2.5em;
+  margin-top: 2em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+padding-left: 1em;
+}
+
+
+.input-form222{
+  width: 22.5em;
+  height: 10em;
+margin-bottom: 2em;
+border-radius: 0.5em;
+text-align: justify;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+padding-left: 1em;
+padding-bottom: 7em;
+}
+
+
+.formname0{
+  padding: 0em 1em 1em 1em;
+background-color: white;
+border-radius: 1.5em;
+border: none;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+left: 0.5em;
+bottom: 1em;
+width: 22em;
+}
+
+.formname1{
+
+background-color: white;
+border-radius: 0.5em;
+border: none;
+padding: 0 0 1em 0;
+}
+
+
+.formname11{
+
+  background-color: white;
+  border-radius: 0.5em;
+  border: none;
+  
+  }
+
+
+
+  .subscribe-button0 {
+    position: relative;
+    height: 3em;
+    bottom: 1em;
+    width: 20em;
+    background-color: #00c566;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+  }
+  .subscribe-button0:hover {
+    background-color: #00c566 ;
+    color: black;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    
+  }
+
+
+
+
+
+
+
+
+
+  }
