@@ -92,7 +92,7 @@ const Third = () => {
         <div className="framediv">
 
 
-        <div className="frame02">
+        <div className="frame02 frame002">
           <div className="footer-head">
             {" "}
             <h3>Company</h3>
@@ -136,7 +136,7 @@ const Third = () => {
           </div>
         </div>
 
-        <div className="frame02">
+        <div className="frame02 frame003">
           <div className="footer-head">
             <h3>Contact</h3>
           </div>

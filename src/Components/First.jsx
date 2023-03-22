@@ -68,7 +68,7 @@ const First = () => {
         <div id="ellipsetext">
           <div className="ellipsetext1">
             <h1 className="header1">
-              Join the future of <span>finance, </span>
+              Join the future of <span>finance, </span> <br />
               Use <span>cryptocurrency</span> today.
             </h1>
             <p className="para1">

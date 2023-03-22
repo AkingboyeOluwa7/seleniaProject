@@ -5,19 +5,7 @@
   }
 .featurespage{
     overflow-x: hidden;
-}
-@media screen and (max-width: 1190px){
-
-
-  .buyairtimepicture {
-    transform: translate(-20%, 0%);
-  }
-  
-
-  .make-payment {
-    transform: translate(3%, 5%);
-  }
-
-
+    overflow-y: hidden;
+    background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,  #1A211E, #1A211E, #1a211e, #1a211e);
 
 }
