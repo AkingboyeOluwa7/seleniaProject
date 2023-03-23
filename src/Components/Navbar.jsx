@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../App.css"
 import "./sidenav.css"
 import "../mobile.css"
@@ -10,6 +10,14 @@ const Navbar = () => {
   const toggleNav =()=>{
     setOpenSide(!openSide)
   }
+
+  const NavLinkStyles = ({isActive}) => {
+
+    return  {
+      fontWeight: isActive ? 'bold' : 'normal',
+      color: isActive ? '#00ffa3' : 'none'
+    }
+  }
   return (
     <div className="">
       <div className="navigation">
@@ -17,10 +25,10 @@ const Navbar = () => {
            <h1>Selenia</h1>
           </div>
             <ul className="nav-list">
-              <li className="list"> <Link to="/"> Home </Link></li>
-              <li className="list"> <Link to="/features"> Features </Link></li>
-              <li className="list"> <Link to="/contactus"> Contact us </Link></li>
-              <li className="list"> <Link to="/aboutus"> About us </Link></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/"> Home </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/features"> Features </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/contactus"> Contact us </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/aboutus"> About us </NavLink></li>
             </ul>
           <div className="nav2">
             <button className="button1" type="button">
@@ -40,12 +48,12 @@ const Navbar = () => {
             <h1>Selenia</h1>
           </div>
             <ul className="min-nav">
-              <li className="list"> <Link to="/"> Home </Link></li>
-              <li className="list"> <Link to="/features"> Features </Link></li>
-              <li className="list"> <Link to="/contactus"> Contact us </Link></li>
-              <li className="list"> <Link to="/aboutus"> About us </Link></li>
-              <li className="list"> <Link to="/aboutus"> Get Selenia </Link></li>
-              <li className="list"> <Link to="/aboutus"> Log In</Link></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/" className="nav-NavLink"> Home </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/features" className="nav-NavLink"> Features </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/contactus" className="nav-NavLink"> Contact us </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/aboutus" className="nav-NavLink"> About us </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/aboutus" className="nav-NavLink"> Get Selenia </NavLink></li>
+              <li className="list"> <NavLink style={NavLinkStyles} to="/aboutus" className="nav-NavLink"> Log In</NavLink></li>
             </ul>
           </nav>
        </div>

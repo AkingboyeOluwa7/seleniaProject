@@ -115,7 +115,7 @@ const Third = () => {
           </div>
         </div>
 
-        <div className="frame02">
+        <div className="frame02  frame0001">
           <div className="footer-head">
             <h3>Services</h3>
           </div>

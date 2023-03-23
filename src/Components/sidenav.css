@@ -8,7 +8,9 @@
     position: fixed;
     z-index: 1;
 }
-
+.nav-link:active{
+    background: red;
+}
 .nav-list{
     width: 50%;
     justify-content: space-evenly;

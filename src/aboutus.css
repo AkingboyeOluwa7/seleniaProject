@@ -70,7 +70,7 @@ font-size: 60px;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
+font-size: 24px;
 line-height: 36px;
 width: 50vw;
   }
@@ -439,7 +439,9 @@ text-align: center;
 @media screen and (max-width: 1050px){
 
 
-
+.ppp{
+  font-size: 16px;
+}
 
   .aboutus2{
     display: grid;
@@ -486,6 +488,7 @@ padding: 2.5em;
 border-bottom-right-radius: 0.5em;
 border-bottom-left-radius: 0.5em;
 width: 45vw;
+height: 300px;
  }
   
 
@@ -559,8 +562,16 @@ width: 45vw;
   height: 300px;
    }
     
+   .img33{
+    position: relative;
+    top: 30px;
+    right: 20px;
 
+   }
 
+   .corevalues{
+    font-size: 12px;
+   }
 
 
 
@@ -926,7 +937,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
 
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 430px){
 
   .img66{
  position: relative;
@@ -938,6 +949,10 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
     left: 15px;
   }
 
+  .img33{
+    position: relative;
+    left: 10px;
+  }
 
   .aboutus1{
     display: grid;
@@ -997,7 +1012,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
       display: flex;
       background-image: url(/src/img/Rectangle4147.png);
       background-color: #1ADF8B ;
-      height: 40vh;
+      height: 53vh;
       justify-content: flex-start;
       overflow-x: scroll;
       overflow-y: hidden;
@@ -1028,7 +1043,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   text-align: center;
-  height:180px;
+  height:270px;
   width: 330px;
   
     }
@@ -1156,9 +1171,9 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   
   }
   .value1{
-    font-size: 6px;
-    Width: 62px;
-  Height: 60px;
+    font-size: 5px;
+    Width: 55px;
+  Height: 55px;
   text-align: center;
   background-color: #212D21;
   border-style: solid;
@@ -1173,9 +1188,9 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   }
   .value2{
     
-    font-size: 6px;
-    Width: 62px;
-  Height: 60px;
+    font-size: 5px;
+    Width: 55px;
+  Height: 55px;
   text-align: center;
   background-color: #212D21;
   border-style: solid;
@@ -1192,9 +1207,9 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   
   .value3{
     
-    font-size: 6px;
-    Width: 62px;
-  Height: 60px;
+    font-size: 5px;
+    Width: 55px;
+  Height: 55px;
   text-align: center;
   background-color: #212D21;
   border-style: solid;
@@ -1211,9 +1226,9 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   
   .value4{
     
-    font-size: 6px;
-    Width: 62px;
-  Height: 60px;
+    font-size: 5px;
+    Width: 55px;
+  Height: 55px;
   text-align: center;
   background-color: #212D21;
   border-style: solid;
@@ -1230,9 +1245,9 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   
   .value5{
     
-    font-size: 6px;
-    Width: 62px;
-  Height: 60px;
+    font-size: 5px;
+    Width: 55px;
+  Height: 55px;
   text-align: center;
   background-color: #212D21;
   border-style: solid;
@@ -1249,9 +1264,9 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   
   .value6{
     
-    font-size: 6px;
-    Width: 62px;
-  Height: 60px;
+    font-size: 5px;
+    Width: 55px;
+  Height: 55px;
   text-align: center;
   background-color: #212D21;
   border-style: solid;
@@ -1268,6 +1283,10 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   padding-bottom: 7em;
   padding-top: 1em;
   background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,  #1A211E, #1A211E, #1a211e, #1a211e);
+
+  }
+  .corevalues{
+    padding-left: 10px;
   }
   
   
@@ -1303,7 +1322,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   padding-top: 6em;
   padding-bottom: 6em;
   color: white;
-  height: 50vh;
+  height: 60vh;
  
   }
 
@@ -1336,7 +1355,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   background: #161D1A;
   color: white;
   margin-top: 0.5em;
@@ -1344,7 +1363,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   text-align: center;
-  height:200px;
+  height:225px;
   width: 330px;
   
     }
@@ -1377,11 +1396,13 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
 
 
 
-  @media screen and (max-width: 360px){
+  @media screen and (max-width: 380px){
 
 .mobileppp{
   font-size: 12px ;
 }
+
+
 .aboutus1{
   display: grid;
   grid-template-columns: 60% 40%;
@@ -1399,7 +1420,7 @@ height: 60vh;
   display: flex;
   background-image: url(/src/img/Rectangle4147.png);
   background-color: #1ADF8B ;
-  height: 50vh;
+  height: 58vh;
   justify-content: flex-start;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -1420,14 +1441,14 @@ height: 60vh;
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   text-align: center;
-  height:200px;
+  height:270px;
   width: 330px;
   
     }
     .value1{
       font-size: 5px;
-      Width: 50px;
-    Height: 50px;
+      Width: 49px;
+    Height: 49px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1443,8 +1464,8 @@ height: 60vh;
     .value2{
       
       font-size: 5px;
-      Width: 50px;
-    Height: 50px;
+      Width: 49px;
+    Height: 49px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1462,8 +1483,8 @@ height: 60vh;
     .value3{
       
       font-size: 5px;
-      Width: 50px;
-    Height: 50px;
+      Width: 49px;
+    Height: 49px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1481,8 +1502,8 @@ height: 60vh;
     .value4{
       
       font-size: 5px;
-      Width: 50px;
-    Height: 50px;
+      Width: 49px;
+    Height: 49px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1500,8 +1521,8 @@ height: 60vh;
     .value5{
       
       font-size: 5px;
-      Width: 50px;
-    Height: 50px;
+      Width: 49px;
+    Height: 49px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1519,8 +1540,8 @@ height: 60vh;
     .value6{
       
       font-size: 5px;
-      Width: 50px;
-    Height: 50px;
+      Width: 49px;
+    Height: 49px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1549,6 +1570,8 @@ height: 60vh;
 
 
 
+ 
+
 
 
 
@@ -1558,14 +1581,26 @@ height: 60vh;
 
 .mobileppp{
   font-size: 12px;
+  display: none;
+  
 }
+.ppp{
+  display: block;
+  font-size: 12px;
+}
+
+.middlediamond{
+  margin-bottom: 500px;
+}
+
 .aboutus1{
-  height: 80vh;
+  height: 100vh;
+  padding-left: 10px;
 }
 
 .ellipse222{
   position: relative;
-  right: 5px;
+  right: 10px;
 }
 
 
@@ -1573,7 +1608,7 @@ height: 60vh;
   display: flex;
   background-image: url(/src/img/Rectangle4147.png);
   background-color: #1ADF8B ;
-  height: 70vh;
+  height: 55vh;
   justify-content: flex-start;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -1585,7 +1620,7 @@ height: 60vh;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 11px;
   background: #161D1A;
   color: white;
   margin-top: 0.5em;
@@ -1593,7 +1628,7 @@ height: 60vh;
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   text-align: center;
-  height:200px;
+  height:240px;
   width: 280px;
   
     }
@@ -1640,8 +1675,8 @@ height: 60vh;
     }
     .value1{
       font-size: 4px;
-      Width: 45px;
-    Height: 45px;
+      Width: 43px;
+    Height: 43px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1657,8 +1692,8 @@ height: 60vh;
     .value2{
       
       font-size: 4px;
-      Width: 45px;
-    Height: 45px;
+      Width: 43px;
+    Height: 43px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1676,8 +1711,8 @@ height: 60vh;
     .value3{
       
       font-size: 4px;
-      Width: 45px;
-    Height: 45px;
+      Width: 43px;
+    Height: 43px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1695,8 +1730,8 @@ height: 60vh;
     .value4{
       
       font-size: 4px;
-      Width: 45px;
-    Height: 45px;
+      Width: 43px;
+    Height: 43px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1714,8 +1749,8 @@ height: 60vh;
     .value5{
       
       font-size: 4px;
-      Width: 45px;
-    Height: 45px;
+      Width: 43px;
+    Height: 43px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1733,8 +1768,8 @@ height: 60vh;
     .value6{
       
       font-size: 4px;
-      Width: 45px;
-    Height: 45px;
+      Width: 43px;
+    Height: 43px;
     text-align: center;
     background-color: #212D21;
     border-style: solid;
@@ -1748,10 +1783,47 @@ height: 60vh;
     border-width: 1px;
     }
 
-
+    .corevalues{
+      padding-left: 25px;
+    }
 
   }
 
+
+
+
+
+
+  @media screen and (max-width: 330px){
+
+
+ .ppp{
+  display: none;
+ }
+.mobileppp{
+  display: block;
+  font-size: 14px;
+}
+    .corevalues{
+    padding-right: 25px;
+    }
+    .aboutus2{
+      display: flex;
+      background-image: url(/src/img/Rectangle4147.png);
+      background-color: #1ADF8B ;
+      height: 80vh;
+      justify-content: flex-start;
+      overflow-x: scroll;
+      overflow-y: hidden;
+    
+    
+    }
+    .img33{
+      position: relative;
+      left: 5px;
+    }
+
+  }
 
 
 
