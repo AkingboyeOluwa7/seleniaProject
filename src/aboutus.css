@@ -1608,7 +1608,7 @@ height: 60vh;
   display: flex;
   background-image: url(/src/img/Rectangle4147.png);
   background-color: #1ADF8B ;
-  height: 55vh;
+  height: 58vh;
   justify-content: flex-start;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -1628,7 +1628,7 @@ height: 60vh;
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   text-align: center;
-  height:240px;
+  height:250px;
   width: 280px;
   
     }
