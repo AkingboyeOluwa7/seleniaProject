@@ -4,7 +4,7 @@ import "../mobile.css";
 const Third = () => {
   return (
     <div id="main3">
-      <div className="peoplecomment">
+      {/* <div className="peoplecomment">
         <div>
           <h1 className="commenttext">What People are saying about us</h1>
         </div>
@@ -50,7 +50,7 @@ const Third = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="getupdate">
         <div className="update-text">
