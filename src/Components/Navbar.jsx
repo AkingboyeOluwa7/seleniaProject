@@ -19,7 +19,7 @@ const Navbar = () => {
     }
   }
   return (
-    <div className="">
+    <div className="navigationzzz">
       <div className="navigation">
           <div className="seleniaa-text">
            <h1>Selenia</h1>

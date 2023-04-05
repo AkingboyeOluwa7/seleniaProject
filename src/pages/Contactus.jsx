@@ -30,7 +30,7 @@ const Contactus = () => {
               <img src="./images/Vector2.jpg" alt="" />
             </div>
             <div>
-              <img src="./images/Vector3.jpg" alt="" />
+              <img src="./images/Vector3.png" alt="" />
             </div>
             <div>
               <img src="./images/Vector4.jpg" alt="" />

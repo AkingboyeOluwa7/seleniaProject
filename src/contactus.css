@@ -51,8 +51,8 @@ font-size: 16px;
 
 .iconss{
     position: relative;
-    margin-right: 120px;
-    bottom: 3em;
+     right: 3.5em;
+     bottom: 3em;
 
 }
 
@@ -139,8 +139,97 @@ padding: 0 0 1.5em 0;
 
 
 
+  @media screen and (max-width: 1300px){
+       
+.input-form2{
+  width: 38em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+  padding-left: 1em;
+}
+.input-form22{
+  width: 38em;
+  height: 2.5em;
+  margin-top: 2em;
+  border-radius: 0.5em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 1em;
+}
+
+
+.input-form222{
+  width: 38em;
+  height: 10em;
+margin-bottom: 2em;
+border-radius: 0.5em;
+text-align: justify;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 1em;
+padding-bottom: 7em;
+}
+
+.formname0{
+  padding: 0em 3.5em 1em 3.5em;
+background-color: white;
+border-radius: 1.5em;
+border: none;
+width: 55vw;
+}
+
+.formname1{
+
+background-color: white;
+border-radius: 0.5em;
+border: none;
+padding: 0 0 1.5em 0;
+}
+
+.subscribe-button0 {
+  position: relative;
+  height: 3em;
+  bottom: 1.5em;
+  width: 38em;
+  background-color: #00c566;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+}
+.subscribe-button0:hover {
+  background-color: #00c566 ;
+  color: black;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  
+}
+
+.formname0{
+  padding: 0em 3.5em 1em 4em;
+background-color: white;
+border-radius: 1.5em;
+border: none;
+width: 58vw;
+margin-bottom: 1em;
+}
+
+
+
+  }
+
 
   @media screen and (max-width: 1150px){
+
+
 .input-form2{
   width: 23em;
   height: 2.5em;
@@ -320,6 +409,12 @@ margin-bottom: 1em;
 
 
 
+      .iconss{
+        position: relative;
+         right: 5.2em;
+         bottom: 3em;
+    
+    }
 
 
 
@@ -498,10 +593,13 @@ margin-bottom: 1em;
         }
         
         
-.iconss{
-  position: relative;
 
-}
+        .iconss{
+          position: relative;
+           right: 3.5em;
+           bottom: 3em;
+      
+      }
 .contact{
   padding-left: 2em;
 }

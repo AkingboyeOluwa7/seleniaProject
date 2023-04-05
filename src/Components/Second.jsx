@@ -1,7 +1,7 @@
 import React from "react";
-import Wallet from '../img/Wallet.png'
-import payment from '../img/payment.png'
-import paybills from '../img/paybills.png'
+import Wallet from '../img/Wallet.jpg'
+import payment from '../img/payment.jpg'
+import paybills from '../img/paybills.jpg'
 import "../mobile.css"
 import mobile1 from '../img/mobile1.png'
 import mobile2 from '../img/mobile2.png'
@@ -28,14 +28,15 @@ const Second = () => {
         </div>
         <div className="mobile1"><img src={mobile1} alt="" /></div>
       </div>
+        
 
-      <div className="buycoins0">
+      <div className="buycoins0"> 
 
-        <div className="mobile2"> <img src={mobile2} alt="" /></div>
-        <div className="make-payment makepaymentmobile">
+        <div  className="mobile2"> <img src={mobile2} alt="" /></div>
+        {<div className="make-payment makepaymentmobile">
 
           <img src={payment} alt="" />
-        </div>
+        </div>}
         <div className="buycoins">
           <div>
             <h1 className="buycoinstexth1">
@@ -48,6 +49,8 @@ const Second = () => {
           </div>
         </div>
       </div>
+
+
 
       <div className="buy-airtime">
 

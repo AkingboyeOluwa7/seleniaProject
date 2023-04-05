@@ -80,8 +80,6 @@ width: 50vw;
   .aboutus2{
     display: grid;
     grid-template-columns: 50% 50% ;
-    
-
     background-image: url(/src/img/Rectangle4147.png);
     background-color: #1ADF8B ;
   justify-content: space-between;
@@ -104,6 +102,12 @@ background: #161D1A;
 color: white;
 border-top-right-radius: 0.5em;
 border-top-left-radius: 0.5em;
+position: relative;
+top: 1em;
+border-bottom: solid;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: white;
 
 
   }
@@ -116,11 +120,10 @@ font-size: 18px;
 line-height: 24px;
 background: #161D1A;
 color: white;
-margin-top: 0.5em;
 padding: 2.5em;
 border-bottom-right-radius: 0.5em;
 border-bottom-left-radius: 0.5em;
-
+padding-top: 3em;
  }
  .dot{
   width: 48px;
@@ -380,27 +383,40 @@ border-width: 1px;
       }
 
 
-  .abouthead{
-    font-size: 18px;
+      .abouthead{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 1em;
+    background: #161D1A;
+    color: white;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    position: relative;
+    top: 1em;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
 
-  }
-  .aboutp{
     
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-background: #161D1A;
-color: white;
-margin-top: 0.5em;
-padding: 1em;
-border-bottom-right-radius: 0.5em;
-border-bottom-left-radius: 0.5em;
-text-align: center;
-height: 200px;
-width: 610px;
-
-  }
+      }
+     .aboutp{
+      
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    background: #161D1A;
+    color: white;
+    padding: 2.5em;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    padding-top: 3em;
+     }
 
   .abouthead{
     font-family: 'Poppins';
@@ -411,7 +427,7 @@ background: #161D1A;
 color: white;
 border-top-right-radius: 0.5em;
 border-top-left-radius: 0.5em;
-height: 150px;
+height: 130px;
 width: 610px;
 text-align: center;
 
@@ -485,6 +501,7 @@ background: #161D1A;
 color: white;
 margin-top: 0.5em;
 padding: 2.5em;
+border-bottom-width: 2px;
 border-bottom-right-radius: 0.5em;
 border-bottom-left-radius: 0.5em;
 width: 45vw;
@@ -556,10 +573,11 @@ height: 300px;
   color: white;
   margin-top: 0.5em;
   padding: 2.5em;
+  border-bottom-width: 2px;
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   width: 45vw;
-  height: 300px;
+  height: 350px;
    }
     
    .img33{
@@ -604,93 +622,148 @@ height: 300px;
 .welcomeselenia{
   font-size: 20px;
 }
-.mobileppp{
-  display: inline;
-font-size: 14px;
-width: 193px;
-height: 124px;
-}
-.ppp{
-  display: none;
-}
-
-.ellipses111{
-  position: relative;
-  right: 2em;
-  
-}
-.middlediamond{
-    position: relative;
-  left: 0.3em; 
+.aboutus1{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100%;
+  background-image: url(/src/img/Rectangle4147.png);
+  background-color: #2D3431;
+padding-top: 5em;
+padding-bottom: 8em;
+color: white;
+height: 100vh;
 
 }
-.ellipse22{
-position: relative;
-right: 7em;
-}
-
 
 .aboutus02{
+display: flex;
+}
+.aboutus002{
   display: none;
+}
+.ellipses111{
+  transform: translate(50%, 10%);
+  
+  transform: scale(0.8);
+}
+.middlediamond{
+  transform: translate(0%, 20%);
+  position: relative;
+  top: 5em;
+  right: 9em;
+  transform: scale(0.8);
+}
+.ellipse22{
+  transform: translate(-30%, 10%);
+  transform: scale(0.8);
+  position: relative;
+  top: 5em;
+  right: 12em;
+}
+.img11{
+  transform: translate(-80%, 30%);
+}
+.img22{
+transform: translate(-80%, 140%);
+}
+.img33{
+transform: translate(0%, 160%);
+}
+.img44{
+  transform: translate(-40%, -90%);
+}
+.img66{
+transform: translate(-40%, 190%);
+}
+.img55{
+transform: translate(10%, 40%);
+}
+
+
+
+.aboutus01{
+transform: translate(3%, 0%);
+
+}
+
+.welcomeselenia{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+}
+.ppp{
+  padding-top: 1em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+width: 40vw;
+}
+.mobileppp{
+display: none;
+}
+
+
+      
+.aboutus2{
+  display: flex;
+  background-image: url(/src/img/Rectangle4147.png);
+  background-color: #1ADF8B ;
+  height: 50vh;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+
+}
+
+.reason2{
+  padding: 1em;
+
     }
-    .aboutus002{
-      display: inline;
-      display: flex;
-    }
-
-    
-  .aboutus2{
-    display: flex;
-    background-image: url(/src/img/Rectangle4147.png);
-    background-color: #1ADF8B ;
-    height: 60vh;
-    justify-content: flex-start;
-    overflow-x: scroll;
-
- 
-  }
-
-  .reason2{
-    padding: 1em;
-      }
 
 
-  .abouthead{
-    font-size: 18px;
+.abouthead{
+  font-size: 18px;
 
-  }
-  .aboutp{
-    
+}
+.aboutp{
+  
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 14px;
 background: #161D1A;
 color: white;
 margin-top: 0.5em;
 padding: 1em;
+padding-top: 3em;
+border-bottom-width: 2px;
 border-bottom-right-radius: 0.5em;
 border-bottom-left-radius: 0.5em;
 text-align: center;
-height: 250px;
-width: 300px;
+height:320px;
+width: 330px;
 
-  }
+}
 
-  .abouthead{
-    font-family: 'Poppins';
+.abouthead{
+  font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 22px;
 background: #161D1A;
 color: white;
 border-top-right-radius: 0.5em;
 border-top-left-radius: 0.5em;
-height: 150px;
-width: 300px;
+height: 130px;
+width: 330px;
 text-align: center;
 
-  }
+}
+
 
 .ourhistory {
   font-size: 20px;
@@ -788,21 +861,21 @@ left: 10em;
   border: 3px;
   background-color: #212D21;
   width: 90vw;
-  height: 280px;
+  height: 160px;
   border-style: solid;
 border-radius: 64px 0px;
 color: white;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-transform: translate(13%, 0%);
+transform: translate(-5%, 0%);
 border-width: 1px;
 
 }
 .value1{
-  font-size: 5px;
-  Width: 53.3px;
-Height: 55.41px;
+  font-size: 8px;
+  Width: 90px;
+Height: 85px;
 text-align: center;
 background-color: #212D21;
 border-style: solid;
@@ -814,12 +887,13 @@ transform: translate(0%, 300%);
 border-radius: 1em;
 border-color: #00FFA3;
 border-width: 1px;
+
 }
 .value2{
   
-  font-size: 5px;
-  Width: 53.3px;
-Height: 55.41px;
+  font-size: 8px;
+  Width: 90px;
+Height: 85px;
 text-align: center;
 background-color: #212D21;
 border-style: solid;
@@ -836,9 +910,9 @@ border-width: 1px;
 
 .value3{
   
-  font-size: 5px;
-  Width: 53.3px;
-Height: 55.41px;
+  font-size: 8px;
+  Width: 90px;
+Height: 85px;
 text-align: center;
 background-color: #212D21;
 border-style: solid;
@@ -855,9 +929,9 @@ border-width: 1px;
 
 .value4{
   
-  font-size: 5px;
-  Width: 53.3px;
-Height: 55.41px;
+  font-size: 8px;
+  Width: 90px;
+Height: 85px;
 text-align: center;
 background-color: #212D21;
 border-style: solid;
@@ -874,9 +948,9 @@ border-width: 1px;
 
 .value5{
   
-  font-size: 5px;
-  Width: 53.3px;
-Height: 55.41px;
+  font-size: 8px;
+  Width: 90px;
+Height: 85px;
 text-align: center;
 background-color: #212D21;
 border-style: solid;
@@ -893,9 +967,9 @@ border-width: 1px;
 
 .value6{
   
-  font-size: 5px;
-  Width: 53.3px;
-Height: 55.41px;
+  font-size: 8px;
+  Width: 90px;
+Height: 85px;
 text-align: center;
 background-color: #212D21;
 border-style: solid;
@@ -909,10 +983,13 @@ border-color: #00FFA3;
 border-width: 1px;
 }
 .values{
-padding-bottom: 15em;
+padding-bottom: 10em;
+
 padding-top: 1em;
 background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,  #1A211E, #1A211E, #1a211e, #1a211e);
 }
+
+
 
 
 
@@ -939,19 +1016,48 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
 
 @media screen and (max-width: 430px){
 
+    .img11{
+      position: relative;
+      left: 10px;
+      bottom: 20px;
+    }
+    .img22{
+      position: relative;
+      
+      bottom: 5px;
+    }
+    
+  .img33{
+    position: relative;
+    left: 1px;
+    
+  }
+
+  .middlediamond{
+    position: relative;
+    left: 1px;
+    top: 80px;
+    transform: scale(1.3);
+  }
+
+    .img44{
+      position: relative;
+      left: 1px;
+    }
+    .img55{
+      position: relative;
+      left: 20px;
+    }
+
   .img66{
  position: relative;
- bottom: 20px;
+ bottom: 10px;
+ left: 1em;
 
   }
   .ellipses1111{
     position: relative;
     left: 15px;
-  }
-
-  .img33{
-    position: relative;
-    left: 10px;
   }
 
   .aboutus1{
@@ -963,7 +1069,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   padding-top: 6em;
   padding-bottom: 6em;
   color: white;
-  height: 55vh;
+  height: 60vh;
  
   }
 
@@ -974,7 +1080,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   .mobileppp{
     display: inline;
   font-size: 14px;
-  width: 193px;
+  
   height: 124px;
   }
   .ppp{
@@ -986,13 +1092,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
     right: 2em;
     
   }
-  .middlediamond{
-      position: relative;
-
-    margin-bottom: 150px; 
-    
-  
-  }
+ 
   .ellipse22{
   position: relative;
   right: 7em;
@@ -1012,7 +1112,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
       display: flex;
       background-image: url(/src/img/Rectangle4147.png);
       background-color: #1ADF8B ;
-      height: 53vh;
+      height: 48vh;
       justify-content: flex-start;
       overflow-x: scroll;
       overflow-y: hidden;
@@ -1027,7 +1127,8 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   
   
     .abouthead{
-      font-size: 18px;
+      font-size: 16px;
+      padding-bottom: 4em;
   
     }
     .aboutp{
@@ -1035,15 +1136,17 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   background: #161D1A;
   color: white;
   margin-top: 0.5em;
   padding: 1em;
+  padding-top: 2em;
+  
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   text-align: center;
-  height:270px;
+  height:20em;
   width: 330px;
   
     }
@@ -1286,7 +1389,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
 
   }
   .corevalues{
-    padding-left: 10px;
+    padding-left: 25px;
   }
   
   
@@ -1310,8 +1413,32 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
 
 .ellipses1111{
   position: relative;
-  left: 1em;
+  left: 2em;
 }
+
+.middlediamond{
+  position: relative;
+  left: 15px;
+  top: 80px;
+  transform: scale(1.3);
+}
+
+  .img44{
+    position: relative;
+    left: 10px;
+  }
+  .img55{
+    position: relative;
+    left: 25px;
+  }
+
+.img66{
+position: relative;
+bottom: 10px;
+left: 2em;
+
+}
+
     
   .aboutus1{
     display: grid;
@@ -1327,63 +1454,69 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
   }
 
 
- 
-    .aboutus2{
-      display: flex;
-      background-image: url(/src/img/Rectangle4147.png);
-      background-color: #1ADF8B ;
-      height: 50vh;
-      justify-content: flex-start;
-      overflow-x: scroll;
-      overflow-y: hidden;
 
-   
-    }
-  
-    .reason2{
-      padding: 1em;
-
-        }
-  
-  
-    .abouthead{
-      font-size: 18px;
-  
-    }
-    .aboutp{
       
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  background: #161D1A;
-  color: white;
-  margin-top: 0.5em;
-  padding: 1em;
-  border-bottom-right-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
-  text-align: center;
-  height:225px;
-  width: 330px;
-  
-    }
-  
-    .abouthead{
-      font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  background: #161D1A;
-  color: white;
-  border-top-right-radius: 0.5em;
-  border-top-left-radius: 0.5em;
-  height: 120px;
-  width: 330px;
-  text-align: center;
-  
-    }
-  
+  .aboutus2{
+    display: flex;
+    background-image: url(/src/img/Rectangle4147.png);
+    background-color: #1ADF8B ;
+    height: 52vh;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
 
+ 
+  }
+
+  .reason2{
+    padding: 1em;
+
+      }
+
+
+  .abouthead{
+    font-size: 16px;
+    padding-bottom: 4em;
+
+  }
+  .aboutp{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+background: #161D1A;
+color: white;
+margin-top: 0.5em;
+padding: 1em;
+padding-top: 2em;
+border-bottom-width: 2px;
+border-bottom-right-radius: 0.5em;
+border-bottom-left-radius: 0.5em;
+text-align: center;
+height:19em;
+width: 330px;
+
+  }
+
+  .abouthead{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+background: #161D1A;
+color: white;
+border-top-right-radius: 0.5em;
+border-top-left-radius: 0.5em;
+height: 110px;
+width: 330px;
+text-align: center;
+
+  }
+
+  .corevalues{
+    padding-left: 8px;
+  }
 
   }
 
@@ -1392,6 +1525,70 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
 
 
 
+  @media screen and (max-width: 385px){
+
+        
+  .aboutus2{
+    display: flex;
+    background-image: url(/src/img/Rectangle4147.png);
+    background-color: #1ADF8B ;
+    height: 62vh;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+ 
+  }
+
+  .reason2{
+    padding: 1em;
+
+      }
+
+
+  .abouthead{
+    font-size: 16px;
+    padding-bottom: 4em;
+
+  }
+  .aboutp{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+background: #161D1A;
+color: white;
+margin-top: 0.5em;
+padding: 1em;
+padding-top: 2em;
+border-bottom-width: 2px;
+border-bottom-right-radius: 0.5em;
+border-bottom-left-radius: 0.5em;
+text-align: center;
+height:19em;
+width: 330px;
+
+  }
+
+  .abouthead{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+background: #161D1A;
+color: white;
+border-top-right-radius: 0.5em;
+border-top-left-radius: 0.5em;
+height: 110px;
+width: 330px;
+text-align: center;
+
+  }
+
+
+
+  }
 
 
 
@@ -1579,74 +1776,156 @@ height: 60vh;
 
   @media screen and (max-width: 360px){
 
-.mobileppp{
-  font-size: 12px;
-  display: none;
+    .img11{
+      position: relative;
+      left: 10px;
+      bottom: 20px;
+    }
+    .img22{
+      position: relative;
+      
+      bottom: 5px;
+    }
+    
+  .img33{
+    position: relative;
+    left: 1px;
+    
+  }
+
+  .middlediamond{
+    position: relative;
+    left: 1px;
+    top: 60px;
+    transform: scale(1.1);
+  }
+
+    .img44{
+      position: relative;
+      left: -5px;
+    }
+    .img55{
+      position: relative;
+      left: 10px;
+    }
+
+  .img66{
+ position: relative;
+ bottom: 10px;
+ left: 5px;
+
+  }
+  .ellipses1111{
+    position: relative;
+    left: 20px;
+  }
+
+  .aboutus1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    background-image: url(/src/img/Rectangle4147.png);
+    background-color: #2D3431;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  color: white;
+  height: 80vh;
+  padding-left: 1em;
+ 
+  }
+
+
+  .welcomeselenia{
+    font-size: 20px;
+  }
+  .mobileppp{
+    display: inline;
+  font-size: 14px;
   
-}
-.ppp{
-  display: block;
-  font-size: 12px;
-}
-
-.middlediamond{
-  margin-bottom: 500px;
-}
-
-.aboutus1{
-  height: 100vh;
-  padding-left: 10px;
-}
-
-.ellipse222{
+  height: 124px;
+  }
+  .ppp{
+    display: none;
+  }
+  
+  .ellipses111{
+    position: relative;
+    right: 2em;
+    
+  }
+ 
+  .ellipse22{
   position: relative;
-  right: 10px;
-}
-
-
+  right: 7em;
+  }
+ 
+  
+  .aboutus02{
+    display: none;
+      }
+      .aboutus002{
+        display: inline;
+        display: flex;
+      }
+  
+   
 .aboutus2{
   display: flex;
   background-image: url(/src/img/Rectangle4147.png);
   background-color: #1ADF8B ;
-  height: 58vh;
+  height: 54vh;
   justify-content: flex-start;
   overflow-x: scroll;
   overflow-y: hidden;
 
 
 }
-.aboutp{
-      
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  background: #161D1A;
-  color: white;
-  margin-top: 0.5em;
+
+.reason2{
   padding: 1em;
-  border-bottom-right-radius: 0.5em;
-  border-bottom-left-radius: 0.5em;
-  text-align: center;
-  height:250px;
-  width: 280px;
-  
+   position: relative;
+   bottom: 0.7em;
     }
 
-    .abouthead{
-      font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  background: #161D1A;
-  color: white;
-  border-top-right-radius: 0.5em;
-  border-top-left-radius: 0.5em;
-  height: 120px;
-  width: 280px;
-  text-align: center;
+
+.abouthead{
+  font-size: 16px;
+  padding-bottom: 4em;
+
+}
+.aboutp{
   
-    }
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+background: #161D1A;
+color: white;
+margin-top: 0.5em;
+padding: 1em;
+padding-top: 2em;
+border-bottom-right-radius: 0.5em;
+border-bottom-left-radius: 0.5em;
+text-align: center;
+height:19em;
+width: 330px;
+
+}
+
+.abouthead{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+background: #161D1A;
+color: white;
+border-top-right-radius: 0.5em;
+border-top-left-radius: 0.5em;
+height: 110px;
+width: 330px;
+text-align: center;
+
+}
     .seleniatexxt{
       font-size: 16px;
       padding: 1em;
@@ -1670,9 +1949,29 @@ height: 60vh;
     .vision-text{
       font-size: 16px;
     }
+
+
+
     .goal-text{
+  
       font-size: 18px;
+      padding: 1em;
+      border-color: #00FFA380;
+      border: 3px;
+      background-color: #212D21;
+      width: 90vw;
+      height: 180px;
+      border-style: solid;
+    border-radius: 64px 0px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    transform: translate(-5%, 0%);
+    border-width: 1px;
     }
+
+
     .value1{
       font-size: 4px;
       Width: 43px;
@@ -1786,6 +2085,7 @@ height: 60vh;
     .corevalues{
       padding-left: 25px;
     }
+    
 
   }
 
@@ -1804,6 +2104,20 @@ height: 60vh;
   display: block;
   font-size: 14px;
 }
+.aboutus1{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100%;
+  background-image: url(/src/img/Rectangle4147.png);
+  background-color: #2D3431;
+padding-top: 6em;
+padding-bottom: 6em;
+color: white;
+height: 100vh;
+padding-left: 1em;
+
+}
+
     .corevalues{
     padding-right: 25px;
     }
@@ -1811,13 +2125,42 @@ height: 60vh;
       display: flex;
       background-image: url(/src/img/Rectangle4147.png);
       background-color: #1ADF8B ;
-      height: 80vh;
+      height: 65vh;
       justify-content: flex-start;
       overflow-x: scroll;
       overflow-y: hidden;
     
     
     }
+
+    
+.abouthead{
+  font-size: 16px;
+  padding-bottom: 4em;
+
+}
+.aboutp{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+background: #161D1A;
+color: white;
+margin-top: 0.5em;
+padding: 1em;
+padding-top: 2em;
+border-bottom-right-radius: 0.5em;
+border-bottom-left-radius: 0.5em;
+text-align: center;
+height:19em;
+width: 330px;
+
+}
+
+
+
+
     .img33{
       position: relative;
       left: 5px;
