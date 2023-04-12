@@ -31,7 +31,7 @@ const Fourth = () => {
           <div className="selenia1">
             <h1>Selenia</h1>
           </div>
-          <div className="iconss">
+          <div className="iconssz">
             <div>
               <img src="./images/Vector1.jpg" alt="" />
             </div>

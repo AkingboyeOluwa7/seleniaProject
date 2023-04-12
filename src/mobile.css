@@ -304,7 +304,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
   }
   .updatep {
     font-family: "Poppins";
@@ -716,6 +716,12 @@ display: none;
 .buyairtimetext{
   position: relative;
   top: 2em;
+}
+.updatep{
+  font-size: 10px;
+}
+.updateh1{
+  font-size: 14px;
 }
 
 
@@ -1196,7 +1202,7 @@ display: none;
       margin-left: auto;
       margin-right: auto;
       align-items: center;
-      height: 90vh;
+      height: 100vh;
     }
     .framediv{
       display: flex ;
@@ -1206,6 +1212,13 @@ display: none;
     
     
     }
+    .updatep{
+      font-size: 10px;
+    }
+    .updateh1{
+      font-size: 14px;
+    }
+    
     .selenia22{
       font-size: 0.5em;
       font-weight: 700;
@@ -1269,7 +1282,7 @@ display: none;
       color: white;
       position: relative;
     font-family: "poppins";
-    height: 55vh;
+    height: 50vh;
     width: 100vw;
     
       
@@ -1343,7 +1356,7 @@ display: none;
       }
     
      .header1 {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 600;
       font-family: "Poppins";
       text-align: center;
@@ -1355,7 +1368,7 @@ display: none;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 300;
-      font-size: 12px;
+      font-size: 10px;
       text-align: center;
       width: 85vw;
       margin-left: auto;
@@ -1418,7 +1431,7 @@ display: none;
   .mobile1{
     display: inline;
     position: relative;
-    left: 0.5em;
+    left: 10px;
     top: 2em;
   }
   
@@ -1443,7 +1456,7 @@ display: none;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 600;
-      font-size: 18px;
+      font-size: 16px;
       max-width: 180px;
      
     }
@@ -1454,7 +1467,7 @@ display: none;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 10px;
       line-height: 25px;
       margin-bottom: 4em;
     }
@@ -1467,8 +1480,8 @@ display: none;
     .mobile2{
       display: inline;
       position: relative;
-      top: 8em;
-      left: 1em;
+      top: 6em;
+      left: 20px;
     }
   
     .buycoins0 {
@@ -1485,11 +1498,15 @@ display: none;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 600;
-      font-size: 18px;
+      font-size: 16px;
       max-width: 180px;
       color: #00ffa3;
       
     
+    }
+    .buycoins{
+      position: relative;
+      right: 5px;
     }
     .buycoins {
       display: flex;
@@ -1512,13 +1529,13 @@ display: none;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 10px;
       line-height: 25px;    
     }
   
     .mobile3{
       display: inline;
-      transform: translate(-40%);
+      transform: translate(-45%);
       position: relative;
       top: 10em;
   
@@ -1559,10 +1576,16 @@ display: none;
   
   .buyairtimetext{
     position: relative;
-    top: 2em;
+    top: 1em;
+    left: 10px;
   }
   
-  
+  .updatep{
+    font-size: 10px;
+  }
+  .updateh1{
+    font-size: 14px;
+  }
   
     
   .update-form {
@@ -1573,7 +1596,7 @@ display: none;
     }
     .input-form {
       height: 2.5em;
-      width: 20em;
+      width: 15em;
       border-radius: 14px;
      
     }
@@ -1619,7 +1642,7 @@ display: none;
       margin-left: auto;
       margin-right: auto;
       align-items: center;
-      height: 100vh;
+      height: 110vh;
     }
     .framediv{
       display: flex ;
@@ -1645,8 +1668,9 @@ display: none;
       justify-content: center;
       column-gap: 1em;
       position: relative;
-      top: 1em;
+    
       left: -1.3em;
+      
     }
     .copyy {
       color: white;

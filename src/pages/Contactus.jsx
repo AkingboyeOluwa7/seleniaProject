@@ -22,7 +22,7 @@ const Contactus = () => {
           <p>Fill in the form or drop an email</p>
         </div>
 
-        {/* <div className="iconss">
+        <div className="iconssz">
             <div>
               <img src="./images/Vector1.jpg" alt="" />
             </div>
@@ -35,7 +35,7 @@ const Contactus = () => {
             <div>
               <img src="./images/Vector4.jpg" alt="" />
             </div>
-          </div> */}
+          </div>
       </div>
 
       <div className='formname0'>

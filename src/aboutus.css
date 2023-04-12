@@ -1121,7 +1121,7 @@ background: radial-gradient(circle at  center center, #173e2d, #173e2d, #1A211E,
       display: flex;
       background-image: url(/src/img/Rectangle4147.png);
       background-color: #1ADF8B ;
-      height: 65vh;
+      height: 50vh;
       justify-content: flex-start;
       overflow-x: scroll;
       overflow-y: hidden;
@@ -1539,76 +1539,7 @@ text-align: center;
 
 
 
-
   @media screen and (max-width: 385px){
-
-        
-  .aboutus2{
-    display: flex;
-    background-image: url(/src/img/Rectangle4147.png);
-    background-color: #1ADF8B ;
-    height: 62vh;
-    justify-content: flex-start;
-    overflow-x: scroll;
-    overflow-y: hidden;
-
- 
-  }
-
-  .reason2{
-    padding: 1em;
-
-      }
-
-
-  .abouthead{
-    font-size: 16px;
-    padding-bottom: 4em;
-
-  }
-  .aboutp{
-    
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-background: #161D1A;
-color: white;
-margin-top: 0.5em;
-padding: 1em;
-padding-top: 2em;
-border-bottom-width: 2px;
-border-bottom-right-radius: 0.5em;
-border-bottom-left-radius: 0.5em;
-text-align: center;
-height:19em;
-width: 330px;
-
-  }
-
-  .abouthead{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-background: #161D1A;
-color: white;
-border-top-right-radius: 0.5em;
-border-top-left-radius: 0.5em;
-height: 110px;
-width: 330px;
-text-align: center;
-
-  }
-
-
-
-  }
-
-
-
-
-  @media screen and (max-width: 380px){
 
 .mobileppp{
   font-size: 12px ;
@@ -1632,7 +1563,7 @@ height: 60vh;
   display: flex;
   background-image: url(/src/img/Rectangle4147.png);
   background-color: #1ADF8B ;
-  height: 58vh;
+  height: 55vh;
   justify-content: flex-start;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -1641,22 +1572,40 @@ height: 60vh;
 }
 
 .aboutp{
-      
+    
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
   background: #161D1A;
   color: white;
-  margin-top: 2em;
+  margin-top: 0.5em;
   padding: 1em;
+  padding-top: 2em;
+  border-bottom-width: 2px;
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
   text-align: center;
-  height:180px;
+  height:19em;
   width: 330px;
-
+  
     }
+  
+    .abouthead{
+      font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  background: #161D1A;
+  color: white;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  height: 110px;
+  width: 330px;
+  text-align: center;
+  
+    }
+
 
     
     .corevalues{
@@ -1850,7 +1799,7 @@ height: 60vh;
   padding-top: 6em;
   padding-bottom: 6em;
   color: white;
-  height: 80vh;
+  height: 70vh;
   padding-left: 1em;
  
   }
@@ -1894,7 +1843,7 @@ height: 60vh;
         display: flex;
         background-image: url(/src/img/Rectangle4147.png);
         background-color: #1ADF8B ;
-        height: 54vh;
+        height: 45vh;
         justify-content: flex-start;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -1908,18 +1857,12 @@ height: 60vh;
    bottom: 0.7em;
     }
 
-
-.abouthead{
-  font-size: 15px;
-  padding-bottom: 4em;
-
-}
 .aboutp{
   
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 10px;
+font-size: 8px;
 background: #161D1A;
 color: white;
 margin-top: 0.5em;
@@ -1929,7 +1872,7 @@ border-bottom-right-radius: 0.5em;
 border-bottom-left-radius: 0.5em;
 text-align: center;
 height:19em;
-width: 330px;
+width: 300px;
 
 }
 
@@ -1937,14 +1880,15 @@ width: 330px;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 22px;
+font-size: 16px;
 background: #161D1A;
 color: white;
 border-top-right-radius: 0.5em;
 border-top-left-radius: 0.5em;
-height: 110px;
-width: 330px;
+height: 100px;
+width: 300px;
 text-align: center;
+
 
 }
     .seleniatexxt{
@@ -2147,17 +2091,7 @@ padding-left: 1em;
     .corevalues{
     padding-right: 25px;
     }
-    .aboutus2{
-      display: flex;
-      background-image: url(/src/img/Rectangle4147.png);
-      background-color: #1ADF8B ;
-      height: 65vh;
-      justify-content: flex-start;
-      overflow-x: scroll;
-      overflow-y: hidden;
-    
-    
-    }
+
 
     .aboutus2{
       display: flex;
@@ -2177,14 +2111,15 @@ padding-left: 1em;
       font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     background: #161D1A;
     color: white;
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
-    height: 80px;
-    width: 330px;
+    height: 100px;
+    width: 280px;
     text-align: center;
+    
     
     }
 .aboutp{
@@ -2201,8 +2136,8 @@ padding-top: 2em;
 border-bottom-right-radius: 0.5em;
 border-bottom-left-radius: 0.5em;
 text-align: center;
-height:18em;
-width: 330px;
+height:20em;
+width: 280px;
 
 }
 

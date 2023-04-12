@@ -49,11 +49,12 @@ font-size: 16px;
 
 }
 
-.iconss{
+.iconssz{
     position: relative;
-     right: 3.5em;
-     bottom: 3em;
-
+    transform: translate(-55%);
+     top: -5em;
+     display: flex;
+  
 }
 
 .input-form2{
@@ -408,15 +409,13 @@ margin-bottom: 1em;
     
 
 
-
-      .iconss{
+      .iconssz{
         position: relative;
-         right: 5.2em;
-         bottom: 3em;
-    
+        transform: translate(-55%);
+         top: -5em;
+         display: flex;
+      
     }
-
-
 
 
 
@@ -591,14 +590,14 @@ margin-bottom: 1em;
           font-size: 12px;
         }
         
-        
-
-        .iconss{
+        .iconssz{
           position: relative;
-           right: 3.5em;
-           bottom: 3em;
-      
+          transform: translate(-55%);
+           top: -5em;
+           display: flex;
+        
       }
+
 .contact{
   padding-left: 2em;
 }
@@ -736,12 +735,16 @@ padding: 0 0 1em 0;
         .fill-in{
           font-size: 12px;
         }
-        
-        
-.iconss{
-  position: relative;
 
-}
+        .iconssz{
+          position: relative;
+          transform: translate(-55%);
+           top: -5em;
+           display: flex;
+        
+      }
+
+
 .contact{
   padding-left: 2em;
 }

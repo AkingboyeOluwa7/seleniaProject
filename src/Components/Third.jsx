@@ -31,7 +31,7 @@ const Third = () => {
             <h1 className="">Selenia</h1>
           </div>
           <div className="mobileview22">
-            <div className="iconss">
+            <div className="iconssz">
               <div>
                 <img src="./images/Vector1.jpg" alt="" />
               </div>

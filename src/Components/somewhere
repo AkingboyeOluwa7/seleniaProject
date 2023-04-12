@@ -508,7 +508,7 @@ margin-right: auto;
 position: relative;
 right: 1em;
 }
-.iconss {
+.iconssz {
   display: flex;
   justify-content: center;
   column-gap: 1em;
