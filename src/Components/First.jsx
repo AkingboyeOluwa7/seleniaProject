@@ -43,7 +43,7 @@ const First = () => {
 
 
 
-        <div className="ellipses1">
+         <div className="ellipses1">
 
 
           <div className="img1">
@@ -63,13 +63,14 @@ const First = () => {
          
 
           </div>
-        </div>
+        </div> 
 
         <div id="ellipsetext">
           <div className="ellipsetext1">
             <h1 className="header1">
-              Join the future of <span>finance, </span> <br />
-              Use <span>cryptocurrency</span> today.
+              
+       Join the future of <span>finance, </span> <br /> 
+              Use <span>cryptocurrency</span> today.     
             </h1>
             <p className="para1">
               We believe in the power of decentralized digital currencies to

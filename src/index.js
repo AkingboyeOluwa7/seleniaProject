@@ -4,8 +4,8 @@ import App from './App';
 import Aboutus from './pages/Aboutus';
 import Contactus from './pages/Contactus';
 import Features from './pages/Features';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import $ from 'jquery';
 // import Popper from 'popper.js';
 
