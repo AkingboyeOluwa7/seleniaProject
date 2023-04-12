@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 import "../App.css"
 import "./sidenav.css"
 import "../mobile.css"
-
+import {GiHamburgerMenu} from "react-icons/gi"
+import {MdOutlineCancel} from "react-icons/md"
 const Navbar = () => {
   const [openSide, setOpenSide] = useState(false)
 
@@ -39,7 +40,7 @@ const Navbar = () => {
             </button>
           </div>
           <div className="ham" style={{marginRight:"20px"}} onClick={toggleNav} >{
-            openSide ? <div className="">x</div> : <div className="">=</div>
+            openSide ? <div className="cancel"><MdOutlineCancel/></div> : <div className="burger"><GiHamburgerMenu/></div>
           }</div>
     </div>
     <div className={openSide ? "side-navigation" : "side-navigation-close"}>

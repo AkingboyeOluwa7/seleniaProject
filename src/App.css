@@ -1472,8 +1472,8 @@ transform: scale(0.7);
   .ham{
  display: block;
  background: #00ffa3;
- padding: 10px;
- color: green;
+ padding: 5px;
+ color: #00ffa3;
   }
   .navigations , .nav2{
     display: none;
@@ -1482,7 +1482,12 @@ transform: scale(0.7);
     display: none;
   }
 
-
+.burger{
+  color: black;
+}
+.cancel{
+  color: black ;
+}
 
 
   
