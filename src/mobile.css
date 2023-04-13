@@ -819,7 +819,7 @@ display: none;
     color: white;
     font-size: 12px;
     position: relative;
-     left: -1px;
+     left: -1.5em;
     top: 3em;
     transform: scale(0.7);
   }
@@ -1250,7 +1250,7 @@ display: none;
       color: white;
       font-size: 12px;
       position: relative;
-       left: -1px;
+       left: -1.3em;
       top: 3em;
       transform: scale(0.7);
     }
@@ -1732,7 +1732,7 @@ display: none;
       color: white;
       font-size: 12px;
       position: relative;
-       left: -1px;
+      left: -1em;
       top: 3em;
       transform: scale(0.6);
     }
@@ -2171,7 +2171,7 @@ display: none;
       color: white;
       font-size: 12px;
       position: relative;
-       left: -1px;
+       left: -1.2em;
       top: 3em;
       transform: scale(0.6);
     }
