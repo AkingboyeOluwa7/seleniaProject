@@ -21,7 +21,7 @@ li a{
 .mobileview22{
   position: relative;
   left: 2em;
-  top: 2em;
+  
 }
 #home-container {
   overflow-x: hidden;
@@ -657,12 +657,12 @@ display: flex;
   width: 100vw;
   column-gap: 3em;
 }
-.iconss {
+.iconssz {
   display: flex;
   justify-content: center;
-  column-gap: 2em;
-  padding-top: 4em;
-  margin-left: 3.5em;
+  column-gap: 1em;
+   padding-top: 7em;
+  margin-left: 4.2em;
   
 }
 
@@ -1121,7 +1121,7 @@ top: 2em;
 
   
   }
-  .iconss {
+  .iconssz{
     display: flex;
     justify-content: center;
     column-gap: 1em;
@@ -1471,9 +1471,9 @@ transform: scale(0.7);
   
   .ham{
  display: block;
- background: #00ffa3;
- padding: 5px;
- color: #00ffa3;
+ 
+ padding: 10px 5px 5px 0;
+
   }
   .navigations , .nav2{
     display: none;
@@ -1483,10 +1483,12 @@ transform: scale(0.7);
   }
 
 .burger{
-  color: black;
+  color: #00ffa3;
+  transform: scale(1.8);
 }
 .cancel{
-  color: black ;
+  color: #00ffa3;
+  transform: scale(1.8);
 }
 
 
@@ -1524,21 +1526,21 @@ padding-left: 1.8em;
   column-gap: 1em;
   position: relative;
   left: 2em;
-  top: 1em;
+  top: 3em;
 }
 .copyy {
   color: white;
   font-size: 12px;
   position: relative;
     left: 5em;
-  top: 3em;
+  top: 5em;
 }
 
 
 .mobileview2{
   display: inline;
   position: relative;
-  right: 1.5em;
+  
   }
   
 
@@ -1816,22 +1818,23 @@ padding-left: 1.8em;
   justify-content: center;
   column-gap: 1em;
   position: relative;
-  left: 2em;
-  top: 1em;
+  left: -13px;
+  top: -0.5em;
 }
 .copyy {
   color: white;
   font-size: 12px;
   position: relative;
-    left: 5em;
+    left: 3.5em;
   top: 3em;
+  
 }
 
 
 .mobileview2{
   display: inline;
   position: relative;
-  right: 1.5em;
+  top: 5em;
   }
   
   .input-form {
@@ -2197,15 +2200,16 @@ padding-left: 1.8em;
   justify-content: center;
   column-gap: 1em;
   position: relative;
-  left: 2em;
-  top: 1em;
+  left: -13px;
+  top: -0.5em;
 }
 .copyy {
   color: white;
   font-size: 12px;
   position: relative;
-    left: 6em;
+    left: 3.5em;
   top: 3em;
+  
 }
 
 
@@ -2582,15 +2586,16 @@ padding-left: 1.8em;
   justify-content: center;
   column-gap: 1em;
   position: relative;
-  left: 2em;
-  top: 1em;
+  left: -13px;
+  top: -0.5em;
 }
 .copyy {
   color: white;
   font-size: 12px;
   position: relative;
-    left: 6em;
+    left: 3.5em;
   top: 3em;
+  
 }
 
 

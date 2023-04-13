@@ -392,22 +392,24 @@ padding-left: 1.8em;
   justify-content: center;
   column-gap: 1em;
   position: relative;
-  right: 1em;
+  left: 5px;
   top: 1em;
+  transform: scale(0.8);
 }
 .copyy {
   color: white;
   font-size: 12px;
   position: relative;
-    left: 7em;
+    left: 4em;
   top: 3em;
+  transform: scale(0.8);
 }
 
 
 .mobileview2{
   display: inline;
   position: relative;
-  right: 1.5em;
+
   }
   
 
@@ -625,7 +627,7 @@ padding-left: 1.8em;
     display: inline;
     position: relative;
     top: 6em;
-    left: 1em;
+    left: 0.5em;
   }
 
   .buycoins0 {
@@ -650,7 +652,7 @@ padding-left: 1.8em;
   .buycoins {
     display: flex;
     flex-direction: column;
-    transform: translate(-4%, 20%);
+    transform: translate(5%, 20%);
   }
   /* .make-payment{
     transform: scale(0.5);
@@ -674,7 +676,7 @@ padding-left: 1.8em;
 
   .mobile3{
     display: inline;
-    transform: translate(-20%);
+    transform: translate(-18%);
     position: relative;
     top: 15em;
 
@@ -716,6 +718,8 @@ display: none;
 .buyairtimetext{
   position: relative;
   top: 2em;
+  left: -0.4em;
+  
 }
 .updatep{
   font-size: 10px;
@@ -808,14 +812,16 @@ display: none;
     column-gap: 1em;
     position: relative;
     top: 1em;
-    left: -1.3em;
+    left: -3em;
+    transform: scale(0.7);
   }
   .copyy {
     color: white;
     font-size: 12px;
     position: relative;
-     left: 2.5em;
+     left: -1px;
     top: 3em;
+    transform: scale(0.7);
   }
   
   .frame02{
@@ -979,7 +985,7 @@ display: none;
       padding: 0.5em 1.4em 0.5em 1.4em;
       gap: 0.6em;
       align-items: center;
-      font-size: 1em;
+      font-size: 0.8em;
       transition: all 0.2s linear;
       font-weight: 600;
       color: white;
@@ -1230,20 +1236,23 @@ display: none;
     position: relative;
     right: 1em;
     }
+
     .iconss {
       display: flex;
       justify-content: center;
       column-gap: 1em;
       position: relative;
-    
-      left: -1.3em;
+      top: 1em;
+      left: -3em;
+      transform: scale(0.7);
     }
     .copyy {
       color: white;
       font-size: 12px;
       position: relative;
-       left: 1.5em;
-      top:2em;
+       left: -1px;
+      top: 3em;
+      transform: scale(0.7);
     }
     
     .frame02{
@@ -1267,6 +1276,56 @@ display: none;
 
   }
 
+
+
+
+  @media screen and (max-width: 375px){
+    .mobile1{
+      display: inline;
+      position: relative;
+      left: 25px;
+      top: 2em;
+    }
+    
+
+    .mobile2{
+      display: inline;
+      position: relative;
+      top: 6em;
+      left: 10px;
+    }
+    .buycoinsp {
+      max-width: 130px;
+      height: 180px;
+      color: white;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 25px;    
+    }
+    .buycoins{
+      position: relative;
+      left: 15px;
+    }
+
+        .mobile3{
+      display: inline;
+      transform: translate(-30%);
+      position: relative;
+      top: 8em;
+  
+    }
+   
+    .buyairtimetext{
+      position: relative;
+      top: 0.1em;
+      left: 1px;
+    }
+    
+
+
+  }
 
 
   
@@ -1368,7 +1427,7 @@ display: none;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 300;
-      font-size: 10px;
+      font-size: 12px;
       text-align: center;
       width: 85vw;
       margin-left: auto;
@@ -1481,7 +1540,7 @@ display: none;
       display: inline;
       position: relative;
       top: 6em;
-      left: 20px;
+      left: 15px;
     }
   
     .buycoins0 {
@@ -1504,14 +1563,11 @@ display: none;
       
     
     }
-    .buycoins{
-      position: relative;
-      right: 5px;
-    }
+  
     .buycoins {
       display: flex;
       flex-direction: column;
-      transform: translate(-8%, 30%);
+      transform: translate(-10%, 35%);
     }
     /* .make-payment{
       transform: scale(0.5);
@@ -1642,7 +1698,7 @@ display: none;
       margin-left: auto;
       margin-right: auto;
       align-items: center;
-      height: 110vh;
+      height: 100vh;
     }
     .framediv{
       display: flex ;
@@ -1668,18 +1724,18 @@ display: none;
       justify-content: center;
       column-gap: 1em;
       position: relative;
-    
-      left: -1.3em;
-      
+      top: 1em;
+      left: -3em;
+      transform: scale(0.6);
     }
     .copyy {
       color: white;
       font-size: 12px;
       position: relative;
-       left: 1.5em;
+       left: -1px;
       top: 3em;
+      transform: scale(0.6);
     }
-    
     .frame02{
       margin-top: 1em;
     }
@@ -2108,16 +2164,17 @@ display: none;
       column-gap: 1em;
       position: relative;
       top: 1em;
-      transform: scale(0.7);
+      left: -3em;
+      transform: scale(0.6);
     }
     .copyy {
       color: white;
-      font-size: 10px;
+      font-size: 12px;
       position: relative;
-       left: 3.5em;
+       left: -1px;
       top: 3em;
+      transform: scale(0.6);
     }
-    
  
     
      .frame002{

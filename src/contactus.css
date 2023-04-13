@@ -39,6 +39,7 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
+
 } 
 
  .fill-in{
@@ -54,6 +55,7 @@ font-size: 16px;
     transform: translate(-55%);
      top: -5em;
      display: flex;
+     
   
 }
 
@@ -528,8 +530,17 @@ margin-bottom: 1em;
         -ms-transform: scale(0.9);
         
       }
-  
+
     
+      .iconssz{
+        position: relative;
+        transform: translate(-38%);
+         top: -2em;
+         display: flex;
+      
+    }
+
+
 
 
 
@@ -554,7 +565,7 @@ margin-bottom: 1em;
 
     
     
-  @media screen  and (max-width: 500px) {
+  @media screen  and (max-width: 600px) {
     
 
     .contactdiv{
@@ -592,8 +603,8 @@ margin-bottom: 1em;
         
         .iconssz{
           position: relative;
-          transform: translate(-55%);
-           top: -5em;
+          transform: translate(-40%);
+           top: -3em;
            display: flex;
         
       }
@@ -738,8 +749,8 @@ padding: 0 0 1em 0;
 
         .iconssz{
           position: relative;
-          transform: translate(-55%);
-           top: -5em;
+          transform: translate(-39%);
+           top: -3em;
            display: flex;
         
       }
