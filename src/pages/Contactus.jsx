@@ -13,7 +13,7 @@ const Contactus = () => {
         
       <div className='contact'>
         <div  className='contact-text'>
-          <p>contact us</p>
+          <p className='contact11'>contact us</p>
         </div>
         <div className='helpyou'>
           <p>How can we help you?</p>
@@ -22,7 +22,7 @@ const Contactus = () => {
           <p>Fill in the form or drop an email</p>
         </div>
 
-        <div className="iconssz">
+        <div className="iconsszz">
             <div>
               <img src="./images/Vector1.jpg" alt="" />
             </div>
@@ -43,7 +43,7 @@ const Contactus = () => {
       <div className='formname'>
         <div className='formname1'>
         <input
-            className="input-form22"
+            className="input-form2"
             typeof="text"
             name="EmailAddress"
             placeholder="Name"
@@ -76,8 +76,8 @@ const Contactus = () => {
             placeholder="Message"
           />
         </div>
-        <div>
-        <button className="subscribe-button0" typeof="submit">
+        <div className="subscribe-button0">
+        <button className= "subb"  typeof="submit">
             Subscribe
           </button>
         </div>

@@ -45,7 +45,7 @@ const Second = () => {
             <p className="buycoinsp">
               Deposit money (BTC, ETH and Stable coins) in your selenia account{" "}
             </p>
-            <button className="ellipsebutton111">Get Started</button>
+            <button className="ellipsebutton111 ellipsebutton1110">Get Started</button>
           </div>
         </div>
       </div>

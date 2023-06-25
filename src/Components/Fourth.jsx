@@ -31,7 +31,7 @@ const Fourth = () => {
           <div className="selenia1">
             <h1>Selenia</h1>
           </div>
-          <div className="iconssz">
+          {/* <div className="iconssz">
             <div>
               <img src="./images/Vector1.jpg" alt="" />
             </div>
@@ -44,7 +44,7 @@ const Fourth = () => {
             <div>
               <img src="./images/Vector4.jpg" alt="" />
             </div>
-          </div>
+          </div> */}
           <div className="copyright">
             <p className="copyy">Copyright 2023 selenia.com</p>
           </div>

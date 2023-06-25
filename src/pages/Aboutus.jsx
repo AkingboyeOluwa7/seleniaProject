@@ -131,8 +131,9 @@ At Selenia, we believe in empowering Africans to take
       </div>
 
     <div className='aboutus2'>
+     <div className= "div1">
 
-      <div className='reason2'>
+     <div className='reason2'>
         <h2 className='abouthead'>SEND AND RECIEVE CRYTOCURRENCIES</h2>
 
         <p className='aboutp'>With Selenia, users can easily send and receive <br />
@@ -157,7 +158,14 @@ At Selenia, we believe in empowering Africans to take
 
       </div>
 
-      <div className='reason2'>
+
+
+     </div>
+
+     <div className= "div2">
+
+      
+     <div className='reason2'>
         <h2 className='abouthead'>Loans</h2>
         <p className='aboutp'>
         For users who may need a loan, Selenia offers loans <br />
@@ -184,6 +192,12 @@ At Selenia, we believe in empowering Africans to take
         </p>
       </div>
 
+
+
+     </div>
+   
+
+
     </div>
 
     <div className='aboutus3'>
@@ -201,7 +215,7 @@ At Selenia, we believe in empowering Africans to take
           the numerous obstacles faced by the African population, they were determined to create a 
            solution that would give individuals greater control over their finances. With their unwavering 
             commitment, they founded Selenia with the goal of empowering the people of Africa through financial  
-            inclusiveness.Today, Selenia’s aim is to help bridge the gap between traditional banking and the 
+            inclusiveness. <br/> Today, Selenia’s aim is to help bridge the gap between traditional banking and the 
              world of cryptocurrency, making it possible for millions of Africans to take control of their 
               financial futures. With its innovative approach, the company will set the standard for web3 
                platforms in Africa, and its mission to empower people through cryptocurrency will be as strong as ever.

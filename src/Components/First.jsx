@@ -11,9 +11,13 @@ import mobilemediumdollar from '../img/mobilemediumdollar.png'
 import mobilet from '../img/mobilet.png'
 import mobilediamond from '../img/mobilediamond.png'
 import "../mobile.css"
+import { motion, AnimatePresence, variants, containerVariants } from "framer-motion"
+import { Hidden } from "@mui/material";
+
 
 
 const First = () => {
+  
   return (
     
     <div className="main1">
@@ -64,27 +68,36 @@ const First = () => {
 
           </div>
         </div> 
+        
 
         <div id="ellipsetext">
-          <div className="ellipsetext1">
-            <h1 className="header1">
+       
+            <motion.h1  className="header1"    initial={{opacity: 0}}
+              animate={{opacity: 1}}
+              transition={{delay: 1.2}} >
               
        Join the future of <span>finance, </span> <br /> 
               Use <span>cryptocurrency</span> today.     
-            </h1>
-            <p className="para1">
+            </motion.h1>
+            <motion.p className="para1" 
+              initial={{opacity: 0.1}}
+              animate={{opacity: 1}}
+              transition={{delay: 1.3, type: 'spring'}}
+            >
               We believe in the power of decentralized digital currencies to
               change the world for the <br />
               better. Our platform offers a fast, secure, and user-friendly way
               to buy, sell, and store <br />a variety of popular
               cryptocurrencies
-            </p>
+            </motion.p>
 
             <div className="buttons1">
-              <button className="ellipsebutton1">Get Selenia</button>
-              <button className="ellipsebutton2">Learn More</button>
+              <motion.button className="ellipsebutton1" initial={{x: '-500vw'}}
+          animate={{x:0}} >Get Selenia</motion.button>
+              <motion.button className="ellipsebutton2" initial={{x: '500vw'}}
+          animate={{x:0}} >Learn More</motion.button>
             </div>
-          </div>
+     
         </div>
 
         <div className="ellipse2">
@@ -143,5 +156,7 @@ const First = () => {
     </div>
   );
 };
+
+
 
 export default First;
